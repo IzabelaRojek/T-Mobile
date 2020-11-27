@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="MyDevices_controller">
+    <aura:attribute type="String" name="userName" default="Agnieszka"/>
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+
+	<h1>Hello world!</h1>
+	<lightning:button label="Neutral" title="Neutral action" onclick="{! c.handleClick }"/>
+
+</aura:component>
